@@ -58,6 +58,9 @@ python3 script.py
 * If the response from the website contains any of the target strings defined in the script, the corresponding result will be saved in the vote_result column of the output CSV file.
 * If the response contains "Something went wrong", the script will stop further calls and display an error message.
 * Feel free to modify the script according to your specific use case and requirements.
+* 🚨**There is a limit of 10 votes per IP per day!!! Script currently doesn't handle rotation via HTTP PROXY.**🚨
+
+Feel free to modify the script according to your specific use case and requirements.
 
 If you encounter any issues or have any questions, please open an issue in this repository.
 
